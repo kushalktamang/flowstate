@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  dev:
+    desc: starting the cli app
+    cmds:
+      - bun run --watch packages/cli/src/index.tsx

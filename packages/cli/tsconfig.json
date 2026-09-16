@@ -1,0 +1,7 @@
+{
+   "extends": "@flowstate/tsconfig/tsconfig.json",
+   "compilerOptions": {
+      "jsx": "react-jsx",
+      "jsxImportSource": "@opentui/react"
+   }
+}

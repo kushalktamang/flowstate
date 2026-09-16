@@ -1,0 +1,8 @@
+{
+  "name": "flowstate",
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
