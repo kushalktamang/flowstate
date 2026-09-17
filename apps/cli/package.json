@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "@flowstate/cli",
   "module": "src/index.tsx",
   "type": "module",
   "private": true,

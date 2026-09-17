@@ -4,4 +4,4 @@ tasks:
   dev:
     desc: starting the cli app
     cmds:
-      - bun run --watch packages/cli/src/index.tsx
+      - bun run --watch apps/cli/src/index.tsx
