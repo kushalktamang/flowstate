@@ -1,6 +1,6 @@
 import { createCliRenderer } from "@opentui/core";
 import { createRoot } from "@opentui/react";
-import Header  from "./_components/header";
+import Header from "./_components/header";
 import Input from "./_components/input";
 
 function App() {
@@ -10,14 +10,19 @@ function App() {
       justifyContent="center"
       backgroundColor="#0D0D12"
       width="100%"
-      height="100%" gap={2}>
+      height="100%"
+      gap={2}
+    >
       <Header />
       <box width="100%" maxWidth={78} paddingX={2}>
-      <Input onSubmit={() => {}} />
-      </ box>
+        <Input onSubmit={() => {}} />
+      </box>
     </box>
   );
 }
 
-const renderer = await createCliRenderer();
+const renderer = await createCliRenderer({
+  targetFps: 60,
+  exitOnCtrlC: false,
+});
 createRoot(renderer).render(<App />);

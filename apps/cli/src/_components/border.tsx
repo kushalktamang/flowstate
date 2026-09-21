@@ -1,4 +1,4 @@
- const EmptyBorder = {
+const EmptyBorder = {
   topLeft: "",
   bottomLeft: "",
   vertical: "",
@@ -10,17 +10,14 @@
   cross: "",
   leftT: "",
   rightT: "",
-}
+};
 
- const SplitBorder = {
+const SplitBorder = {
   border: ["left" as const, "right" as const],
   customBorderChars: {
     ...EmptyBorder,
     vertical: "┃",
   },
- }
+};
 
-export {
-  EmptyBorder,
-  SplitBorder
-}
+export { EmptyBorder, SplitBorder };
