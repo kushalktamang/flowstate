@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import type { TextareaRenderable, KeyBinding } from "@opentui/core";
+=======
+import type { TextareaRenderable, KeyBinding } from "@opentui/core";
+>>>>>>> b14d70c (fix the pr for the development)
 import { EmptyBorder } from "./border";
 import Status from "./status";
 import { useCallback, useEffect, useRef } from "react";
